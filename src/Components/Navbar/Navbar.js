@@ -21,7 +21,7 @@ const Navbar = () => {
                         {menuItem}
                     </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-xl">Hello</Link>
+                <Link className="btn btn-ghost normal-case text-xl">Portfolio</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <a href="https://drive.google.com/file/d/1jEndtHLyXF79ekU6edQq0UQX9NRrZWbT/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                    <button className='btn btn-success font-bold'>Download CV</button>
+                    <button className='btn btn-success font-bold'>Resume</button>
                 </a>
             </div>
         </div>
