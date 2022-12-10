@@ -12,7 +12,7 @@ const Banner = () => {
                     <h1 className="text-3xl font-bold">I am a MERN Stack Developer</h1>
                     <p className="py-2">I am a motivated and dedicated MERN Stack Developer with knowledge both front-end and back-end. Looking for a professional role to start my career as a Web Developer where I will be able to share my acquired knowledge and gain more.</p>
                     <div className='mt-2'>
-                        <Link to='/about'><button className="btn btn-primary mr-2">About Me</button></Link>
+                        <Link to='/about'><button className="btn btn-outline text-teal-700 font-bold mr-2 mb-2">More About Me</button></Link>
                         <Link to='/portfolio'><button className="btn btn-primary">Portfolio</button></Link>
                     </div>
                 </div>

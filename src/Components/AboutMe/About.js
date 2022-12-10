@@ -14,6 +14,9 @@ const About = () => {
                     <p><span className='text-gray-600'>Language:</span> Bengali</p>
                     <p><span className='text-gray-600'>Experience:</span> 1year</p>
                     <p><span className='text-gray-600'>Location:</span> Dhaka, Bangladesh</p>
+                    <a href="https://drive.google.com/file/d/1jEndtHLyXF79ekU6edQq0UQX9NRrZWbT/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <button className='btn btn-success font-bold mt-6'>Download CV</button>
+                    </a>
                 </div>
             </div>
         </div>
