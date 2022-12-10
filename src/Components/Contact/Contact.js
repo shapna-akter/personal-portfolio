@@ -1,6 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('shapna028', 'template_axrblsf', form.current, 'hndYa86KjWFKeVYTh')
+            .then((result) => {
+                toast.success('Message sent successfully')
+            }, (error) => {
+                toast.error('Please Try Again')
+            });
+            e.target.reset();
+    };
+
     return (
         <div>
             <section className="py-6 my-12">
@@ -30,20 +46,22 @@ const Contact = () => {
                             </p>
                         </div>
                     </div>
-                    <form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                    <form
+                        ref={form} onSubmit={sendEmail}
+                        className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                         <label className="block">
                             <span className="mb-1">Full name</span>
-                            <input type="text" placeholder="Your Name" className="block w-full rounded-md shadow-sm p-2 mt-2" />
+                            <input type="text" name="user_name" placeholder="Your Name" className="block w-full rounded-md shadow-sm p-2 mt-2" />
                         </label>
                         <label className="block">
                             <span className="mb-1">Email</span>
-                            <input type="email" placeholder="Your Email" className="block w-full rounded-md shadow-sm p-2 mt-2" />
+                            <input type="email" name="user_email" placeholder="Your Email" className="block w-full rounded-md shadow-sm p-2 mt-2" />
                         </label>
                         <label className="block">
                             <span className="mb-1">Message</span>
-                            <textarea rows="3" className="block w-full rounded-md mt-2"></textarea>
+                            <textarea rows="3" name="message" className="block w-full rounded-md mt-2"></textarea>
                         </label>
-                        <button type="button" className="btn btn-success px-8 py-3 text-lg rounded hover:ring hover:ring-violet-400">Submit</button>
+                        <button type="submit" className="btn btn-success px-8 py-3 text-lg rounded hover:ring hover:ring-violet-400">Submit</button>
                     </form>
                 </div>
             </section>
