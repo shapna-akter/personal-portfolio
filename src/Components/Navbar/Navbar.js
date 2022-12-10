@@ -29,7 +29,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className='btn btn-primary font-bold'>Download CV</button>
+                <a href="https://drive.google.com/file/d/1jEndtHLyXF79ekU6edQq0UQX9NRrZWbT/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <button className='btn btn-success font-bold'>Download CV</button>
+                </a>
             </div>
         </div>
     );
