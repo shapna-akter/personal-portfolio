@@ -12,13 +12,13 @@ const Footer = () => {
             </div>
             <div>
                 <div className="grid grid-flow-col gap-4">
-                    <Link>
+                    <a href="https://github.com/shapna-akter" target="_blank" rel="noopener noreferrer">
                         <FaGithub className='text-4xl'></FaGithub>
-                    </Link>
-                    <Link>
+                    </a>
+                    <a href="https://www.facebook.com/shapna28/" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className='text-4xl'></FaFacebook>
-                    </Link>
-                    <Link>
+                    </a>
+                    <Link href="https://www.linkedin.com/in/shapna-akter/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className='text-4xl'></FaLinkedin>
                     </Link>
                 </div>

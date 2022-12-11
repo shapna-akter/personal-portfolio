@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Furniture Row",
+        "bgImage": "https://i.ibb.co/tpz7KF6/project1.jpg",
+        "description": "Created this project based on buy and selling products",
+        "liveLink": "https://assignment-12-de85a.web.app/",
+        "clientCode" : "https://github.com/shapna-akter/Furniture-Row-Client",
+        "serverCode" : "https://github.com/shapna-akter/Furniture-Row-Server"
+    },
+    {
+        "id": 2,
+        "title": "The Moments",
+        "bgImage": "https://i.ibb.co/pQbyxZv/project2.jpg",
+        "description": "Created this project based on Photography.",
+        "liveLink": "https://assignment-11-client-a0b66.web.app/",
+        "clientCode" : "https://github.com/shapna-akter/The-Moment-Client",
+        "serverCode" : "https://github.com/shapna-akter/The-Moment-Server"
+    },
+    {
+        "id": 3,
+        "title": "Tech Educa",
+        "bgImage": "https://i.ibb.co/N2dqS1L/project3.jpg",
+        "description": "Created this project based on learning web development.",
+        "liveLink": "https://tech-educa.web.app/",
+        "clientCode" : "https://github.com/shapna-akter/Tech-Educa",
+        "serverCode" : "https://github.com/shapna-akter/Tech-Educa-Server"
+    }
+]

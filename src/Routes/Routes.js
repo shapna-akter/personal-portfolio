@@ -3,6 +3,7 @@ import AboutMe from "../Components/AboutMe/AboutMe";
 import Contact from "../Components/Contact/Contact";
 import Home from "../Components/Home/Home";
 import Portfolio from "../Components/Portfolio/Portfolio";
+import PortfolioDetails from "../Components/PortfolioDetails/PortfolioDetails";
 import Main from "../Layout/Main";
 
 export const router = createBrowserRouter([
@@ -21,6 +22,11 @@ export const router = createBrowserRouter([
             {
                 path: '/portfolio',
                 element: <Portfolio></Portfolio>
+            },
+            {
+                path: '/details/:id',
+                element: <PortfolioDetails></PortfolioDetails>,
+                loader: ({params}) => fetch(`projects.json/${params.id}`)
             },
             {
                 path: '/contact',

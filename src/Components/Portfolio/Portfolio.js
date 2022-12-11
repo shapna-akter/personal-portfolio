@@ -1,39 +1,18 @@
-import React from 'react';
-import image1 from '../../assets/projectsImage/project1.jpg'
-import image2 from '../../assets/projectsImage/project2.jpg'
-import image3 from '../../assets/projectsImage/project3.jpg'
+import React, { useEffect, useState } from 'react';
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+// import image1 from '../../assets/projectsImage/project1.jpg'
+// import image2 from '../../assets/projectsImage/project2.jpg'
+// import image3 from '../../assets/projectsImage/project3.jpg'
 
 const Portfolio = () => {
+    const [projects, setProjects] = useState()
 
-    const projects = [
-        {
-            id: 1,
-            name: 'Furniture Row',
-            image: image1,
-            description: 'Created this project based on buy and selling products.',
-            btn: <a href="https://assignment-12-de85a.web.app/" target="_blank" rel="noopener noreferrer">
-                <button className='btn btn-primary font-bold'>View Details</button>
-            </a>
-        },
-        {
-            id: 2,
-            name: 'The Moments',
-            image: image2,
-            description: 'Created this project based on Photography.',
-            btn: <a href="https://assignment-11-client-a0b66.web.app/" target="_blank" rel="noopener noreferrer">
-                <button className='btn btn-primary font-bold'>View Details</button>
-            </a>
-        },
-        {
-            id: 3,
-            name: 'Tech Educa',
-            image: image3,
-            description: 'Created this project based on learning web development.',
-            btn: <a href="https://tech-educa.web.app/" target="_blank" rel="noopener noreferrer">
-                <button className='btn btn-primary font-bold'>View Details</button>
-            </a>
-        }
-    ]
+    useEffect(() => {
+        fetch('projects.json')
+            .then(res => res.json())
+            .then(data => setProjects(data))
+    }, [])
 
     return (
         <div className='my-12 text-center'>
@@ -41,13 +20,17 @@ const Portfolio = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 m-12' data-aos="zoom-in-up">
                 {
                     projects?.map(project =>
-                        <div key={project.id} project={project}>
-                            <figure><img className='h-64 w-full' src={project.image} alt="Shoes" /></figure>
+                        <div key={project.id} project={project} className='shadow-lg'>
+                            <figure><img className='h-64 w-full' src={project.image} alt="" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">{project.name}</h2>
+                                <h2 className="card-title">{project.title}</h2>
                                 <p className='text-left'>{project.description}</p>
                                 <div className="card-actions justify-end">
-                                    {project.btn}
+                                    <a href={project.liveLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    > <FaExternalLinkAlt className='text-blue-900'></FaExternalLinkAlt>
+                                    </a>
                                 </div>
                             </div>
                         </div>
