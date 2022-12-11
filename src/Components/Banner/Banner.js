@@ -4,7 +4,9 @@ import myImage from '../../assets/me.jpg'
 
 const Banner = () => {
     return (
-        <div className="hero">
+        <div className="hero" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className="hero-content flex-col lg:flex-row">
                 <img src={myImage} className="rounded-lg lg:w-2/5 shadow-2xl" alt='' />
                 <div>

@@ -38,7 +38,7 @@ const Portfolio = () => {
     return (
         <div className='my-12 text-center'>
             <h2 className='text-5xl text-center font-bold my-12'>My Recent <span className='text-amber-600'>Projects</span></h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 m-12'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 m-12' data-aos="zoom-in-up">
                 {
                     projects?.map(project =>
                         <div key={project.id} project={project}>

@@ -3,7 +3,9 @@ import myImage from '../../assets/me3.png'
 
 const About = () => {
     return (
-        <div className="hero">
+        <div className="hero" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
             <div className="hero-content flex-col lg:flex-row">
                 <img src={myImage} className="rounded-lg lg:w-2/5 shadow-2xl" alt='' />
 
