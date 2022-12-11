@@ -21,7 +21,7 @@ const Portfolio = () => {
                 {
                     projects?.map(project =>
                         <div key={project.id} project={project} className='shadow-lg'>
-                            <figure><img className='h-64 w-full' src={project.image} alt="" /></figure>
+                            <figure><img className='h-64 w-full' src={project.bgImage} alt="" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">{project.title}</h2>
                                 <p className='text-left'>{project.description}</p>
