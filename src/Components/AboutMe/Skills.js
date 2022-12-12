@@ -1,72 +1,90 @@
 import React from 'react';
+import skill1 from '../../assets/skills/1.png'
+import skill2 from '../../assets/skills/2.png'
+import skill3 from '../../assets/skills/3.png'
+import skill4 from '../../assets/skills/4.jpg'
+import skill5 from '../../assets/skills/5.png'
+import skill6 from '../../assets/skills/6.png'
+import skill7 from '../../assets/skills/7.png'
+import skill8 from '../../assets/skills/8.png'
+import skill9 from '../../assets/skills/9.png'
+import skill10 from '../../assets/skills/10.png'
+import skill11 from '../../assets/skills/11.jpg'
+import skill12 from '../../assets/skills/12.png'
 
 const Skills = () => {
     const skills = [
         {
             id: 1,
-            name: 'HTML5',
+            image: skill1
         },
         {
             id: 2,
-            name: 'CSS3',
+            image: skill2
         },
         {
             id: 3,
-            name: 'Bootstrap',
+            image: skill3
         },
         {
             id: 4,
-            name: 'JavaScript',
+            image: skill4
         },
         {
             id: 5,
-            name: 'React',
+            image: skill5
         },
         {
             id: 6,
-            name: 'ExpressJs',
+            image: skill6
         },
         {
             id: 7,
-            name: 'NodeJs',
+            image: skill7
         },
         {
             id: 8,
-            name: 'MongoDB',
+            image: skill8
         },
         {
             id: 9,
-            name: 'Firebase',
+            image: skill9
         },
         {
             id: 10,
-            name: 'GitHub',
+            image: skill10
         },
         {
             id: 11,
-            name: 'TailwindCSS',
+            image: skill11
         },
         {
             id: 12,
-            name: 'Figma',
+            image: skill12
         },
     ]
     return (
-        <div className='my-12 text-center'>
-            <h2 className='text-5xl text-center font-bold my-12'>My <span className='text-amber-600'>Skills</span></h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto'>
+        <div className='flex flex-col justify-center items-center my-12'>
+            <h3 className="text-3xl font-bold mb-12"> My <span className='text-amber-600'>Skills</span></h3>
+            
+            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-12 px-12 lg:px-0'>
                 {
                     skills?.map(skill =>
                         <div key={skill.id} project={skill}>
-                            <div className="card-body">
-                                <h2 className="bg-teal-200 p-2 font-bold">{skill.name}</h2>
+                            <div className="avatar">
+                                <div className="lg:w-24 rounded-full">
+                                    <img src={skill.image} alt='' />
+                                </div>
                             </div>
                         </div>
                     )
                 }
             </div>
+           
         </div>
     );
 };
 
 export default Skills;
+
+// className="relative col-span-12 px-4 space-y-6 sm:col-span-9"

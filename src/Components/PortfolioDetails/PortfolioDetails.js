@@ -30,12 +30,12 @@ const PortfolioDetails = () => {
                             <a href={clientCode}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            > Client
+                            > Client-Site Code
                             </a> ||
                             <a href={serverCode}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            > Server
+                            > Server-Site Code
                             </a>
                         </div>
                             </div>
