@@ -1,29 +1,41 @@
 [
     {
-        "id": 1,
         "title": "Furniture Row",
         "bgImage": "https://i.ibb.co/tpz7KF6/project1.jpg",
-        "description": "Created this project based on buy and selling products",
+        "heading": "Created this project based on buy and selling products",
         "liveLink": "https://assignment-12-de85a.web.app/",
         "clientCode" : "https://github.com/shapna-akter/Furniture-Row-Client",
-        "serverCode" : "https://github.com/shapna-akter/Furniture-Row-Server"
+        "serverCode" : "https://github.com/shapna-akter/Furniture-Row-Server",
+        "img1": "https://i.ibb.co/cNBF762/2.png",
+        "img2": "https://i.ibb.co/C6JYnF2/4.png",
+        "img3": "https://i.ibb.co/G5btwtR/3.png",
+        "technologies": "React, Node.js, Express, MongoDB, Firebase, JWT, Context API, Tailwind CSS",
+        "description": "This website is created based on sale and purchase secondhand furniture. Here a buyer can purchase products and a seller can add a product for sale. If buyers and sellers wants to buy and sale product they must have login otherwise they will not able to buy and sale products. If the users creates a seller account, he will choose the seller option. Otherwise, a user will have the buyer option selected by default. And google users will be considered as buyers. After purchase products users can pay the bill by card. There is an admin role who can manage all buyers and sellers. If he wants he can delete the buyers and sellers, also he can verified the sellers"
     },
     {
-        "id": 2,
         "title": "The Moments",
         "bgImage": "https://i.ibb.co/pQbyxZv/project2.jpg",
-        "description": "Created this project based on Photography.",
+        "heading": "Created this project based on Photography.",
         "liveLink": "https://assignment-11-client-a0b66.web.app/",
         "clientCode" : "https://github.com/shapna-akter/The-Moment-Client",
-        "serverCode" : "https://github.com/shapna-akter/The-Moment-Server"
+        "serverCode" : "https://github.com/shapna-akter/The-Moment-Server",
+        "img1": "https://i.ibb.co/jz8Kbxj/1.png",
+        "img2": "https://i.ibb.co/cNg5pb7/2.png",
+        "img3": "https://i.ibb.co/gTnk4tW/4.png",
+        "technologies": "React, Node.js, Express, MongoDB, Firebase, JWT, Context API, Tailwind CSS",
+        "description": "In the home page there is a service section of the services. if you want to see all the services click on the see all button. it will take you to the services page where you can see all the services. If you want to see the details of the services click on the see more button. it will take you to the service details page and show all details of the services. In the service details page there is also a review section where u can see the reviewers review and also u can add a review on my work. But you have to login first. In the My Review page u can see only your reviews what you add. And the Add Service page u can add service of the home page"
     },
     {
-        "id": 3,
         "title": "Tech Educa",
         "bgImage": "https://i.ibb.co/N2dqS1L/project3.jpg",
-        "description": "Created this project based on learning web development.",
+        "heading": "Created this project based on learning web development.",
         "liveLink": "https://tech-educa.web.app/",
         "clientCode" : "https://github.com/shapna-akter/Tech-Educa",
-        "serverCode" : "https://github.com/shapna-akter/Tech-Educa-Server"
+        "serverCode" : "https://github.com/shapna-akter/Tech-Educa-Server",
+        "img1": "https://i.ibb.co/p2mJ7x5/1.png",
+        "img2": "https://i.ibb.co/RHSJRRL/2.png",
+        "img3": "https://i.ibb.co/sK515Hn/3.png",
+        "technologies": "HTML5, CSS3, React, Node.js, Express, Firebase, Tailwind CSS, DaisyUI, MambaUI",
+        "description" : "I've created this project based on learning web development.To build in single application page i've installed react router dom. To design and responsive my website I've used Tailwind CSS, daisyUI and MambaUI which is quicker to write and to maintain my code.In my project there is a courses section in the navbar. Courses section is divided into two parts. In the sideBar I've used data-aos for sliding. To see the course details clicked a button. It will take you to the course details page.In the course details page there is a download icon in the right side at top. To download the pdf file click on the download button in the right side at the top. And to see the checkout page click on the Get premium Access button in the right side at the bottom."
     }
 ]

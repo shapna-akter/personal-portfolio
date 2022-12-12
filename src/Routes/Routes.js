@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import AboutMe from "../Components/AboutMe/AboutMe";
+import Blog from "../Components/Blog/Blog";
 import Contact from "../Components/Contact/Contact";
 import Home from "../Components/Home/Home";
 import Portfolio from "../Components/Portfolio/Portfolio";
@@ -26,7 +27,11 @@ export const router = createBrowserRouter([
             {
                 path: '/details/:id',
                 element: <PortfolioDetails></PortfolioDetails>,
-                loader: ({params}) => fetch(`projects.json/${params.id}`)
+                loader: ({params})=> fetch(`https://assignment-12-server-jet.vercel.app/projects/${params.id}`)
+            },
+            {
+                path: '/blog',
+                element: <Blog></Blog>
             },
             {
                 path: '/contact',
