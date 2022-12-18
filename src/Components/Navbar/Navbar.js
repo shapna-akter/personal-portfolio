@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <a href="https://drive.google.com/file/d/1oenRuPKYKc283X9aj8fS99PpRH8Ur541/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                    <button className='btn btn-primary font-bold'>Resume</button>
+                    <button className='btn btn-sm btn-outline font-bold'>Resume</button>
                 </a>
             </div>
         </div>
