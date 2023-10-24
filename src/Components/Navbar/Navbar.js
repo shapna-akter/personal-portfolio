@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://drive.google.com/file/d/1oenRuPKYKc283X9aj8fS99PpRH8Ur541/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/10-P23nlLQH7W7W8oTfL9P3v-ZCuxZKRI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <button className='btn btn-sm btn-outline font-bold'>Resume</button>
                 </a>
             </div>
