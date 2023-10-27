@@ -11,6 +11,9 @@ import skill9 from '../../assets/skills/9.png'
 import skill10 from '../../assets/skills/10.png'
 import skill11 from '../../assets/skills/11.jpg'
 import skill12 from '../../assets/skills/12.png'
+import skill13 from '../../assets/skills/next.jpg'
+import skill14 from '../../assets/skills/Redux.png'
+import skill15 from '../../assets/skills/type.png'
 
 const Skills = () => {
     const skills = [
@@ -59,9 +62,17 @@ const Skills = () => {
             image: skill11
         },
         {
-            id: 12,
-            image: skill12
+            id: 13,
+            image: skill13
         },
+        {
+            id: 14,
+            image: skill14
+        },
+        {
+            id: 15,
+            image: skill15
+        }
     ]
     return (
         <div className='flex flex-col justify-center items-center my-12'>
