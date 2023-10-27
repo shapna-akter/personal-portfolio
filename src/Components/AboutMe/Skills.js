@@ -62,6 +62,10 @@ const Skills = () => {
             image: skill11
         },
         {
+            id: 12,
+            image: skill12
+        },
+        {
             id: 13,
             image: skill13
         },
