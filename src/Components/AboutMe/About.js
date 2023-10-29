@@ -14,7 +14,7 @@ const About = () => {
                     <p><span className='text-gray-600'>Email:</span> shapna.akter0622@gmail.com</p>
                     <p><span className='text-gray-600'>Nationality:</span> Bangladeshi</p>
                     <p><span className='text-gray-600'>Language:</span> Bengali</p>
-                    <p><span className='text-gray-600'>Experience:</span> 1year</p>
+                    <p><span className='text-gray-600'>Experience:</span> 2year</p>
                     <p><span className='text-gray-600'>Location:</span> Dhaka, Bangladesh</p>
                     <a href="https://drive.google.com/file/d/10-P23nlLQH7W7W8oTfL9P3v-ZCuxZKRI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <button className='btn btn-primary font-bold mt-6'>Resume</button>
