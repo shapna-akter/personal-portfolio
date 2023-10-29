@@ -8,7 +8,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('shapna028', 'template_axrblsf', form.current, 'hndYa86KjWFKeVYTh')
+        emailjs.sendForm('service_3kfgtln', 'template_hfcxpd8', form.current, 'M0YmbAYVLZXZOjJkn')
             .then((result) => {
                 toast.success('Message sent successfully')
             }, (error) => {
@@ -59,7 +59,7 @@ const Contact = () => {
                         </label>
                         <label className="block">
                             <span className="mb-1">Message</span>
-                            <textarea rows="3" name="message" className="block w-full rounded-md mt-2"></textarea>
+                            <textarea rows="3" name="message" className="block w-full rounded-md mt-2 p-2"></textarea>
                         </label>
                         <button type="submit" className="btn btn-success px-8 py-3 text-lg rounded hover:ring hover:ring-violet-400">Submit</button>
                     </form>
