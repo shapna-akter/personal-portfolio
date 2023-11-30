@@ -1,16 +1,9 @@
 import { useQuery } from '@tanstack/react-query';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Spinner from '../Spinner/Spinner';
 
 const Portfolio = () => {
-    // const [projects, setProjects] = useState()
-
-    // useEffect(() => {
-    //     fetch('https://assignment-12-server-jet.vercel.app/projects')
-    //         .then(res => res.json())
-    //         .then(data => setProjects(data))
-    // }, [])
 
     const { data: projects, isLoading } = useQuery({
         queryKey: ['projects'],

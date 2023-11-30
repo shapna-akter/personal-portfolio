@@ -3,7 +3,6 @@ import { useLoaderData } from 'react-router-dom';
 
 const PortfolioDetails = () => {
     const projectDetails = useLoaderData();
-    console.log(projectDetails);
     const { clientCode, description, img1, img2, img3, liveLink, serverCode, technologies } = projectDetails;
     return (
         <section>
