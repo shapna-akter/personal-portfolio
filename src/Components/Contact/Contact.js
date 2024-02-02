@@ -19,7 +19,7 @@ const Contact = () => {
 
     return (
         <div>
-            <section className="py-6 mt-24" data-aos="fade-up"
+            <section className="mt-24" data-aos="fade-up"
             data-aos-duration="1000">
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                     <div className="py-6 md:py-0 md:px-6">

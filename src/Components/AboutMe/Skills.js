@@ -79,11 +79,10 @@ const Skills = () => {
         }
     ]
     return (
-        <div className='flex flex-col justify-center items-center mt-24' data-aos="fade-up"
+        <div className='mt-24' data-aos="fade-up"
         data-aos-duration="1000">
-            <h3 className="text-5xl font-bold mb-12"> My <span className='text-amber-600'>Skills</span></h3>
-            
-            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-12 px-12 lg:px-0' data-aos="zoom-in-up" data-aos-duration="1000">
+            <h3 className="text-5xl font-bold mb-12 text-center"> My <span className='text-amber-600'>Skills</span></h3>
+            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 px-12 text-center' data-aos="zoom-in-up" data-aos-duration="1000">
                 {
                     skills?.map(skill =>
                         <div key={skill.id} project={skill}>

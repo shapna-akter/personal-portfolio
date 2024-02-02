@@ -4,10 +4,9 @@ import myImage from '../../assets/me3.png'
 
 const Banner = () => {
     return (
-        <div className="hero mt-24" data-aos="fade-down"
-            data-aos-easing="linear"
+        <div className="mt-24" data-aos="fade-down"
             data-aos-duration="1000">
-            <div className="hero-content flex-col lg:flex-row lg:px-12">
+            <div className="flex lg:flex-row flex-col items-center gap-12 lg:px-12 px-6">
                 <img src={myImage} className="rounded-full lg:w-2/5 shadow-2xl" alt='' />
                 <div>
                     <h1 className="text-2xl lg:text-5xl font-bold pt-6 lg:pt-0">I am a <span className='text-amber-600'>Frontend</span> Developer</h1>
