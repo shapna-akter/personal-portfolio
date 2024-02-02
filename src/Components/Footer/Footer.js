@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+        <footer className="footer footer-center p-10 bg-[#40ABB0] text-white text-lg rounded mt-24">
             <div className="grid grid-flow-col gap-4">
                 <Link to='/about' className="link link-hover">About Me</Link>
                 <Link to='/portfolio' className="link link-hover">Portfolio</Link>

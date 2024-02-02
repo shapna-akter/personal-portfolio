@@ -19,7 +19,8 @@ const Contact = () => {
 
     return (
         <div>
-            <section className="py-6 my-12">
+            <section className="py-6 mt-24" data-aos="fade-up"
+            data-aos-duration="1000">
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                     <div className="py-6 md:py-0 md:px-6">
                     <h2 className='text-5xl font-bold'>Get In <span className='text-amber-600'>Touch</span></h2>
@@ -61,7 +62,7 @@ const Contact = () => {
                             <span className="mb-1">Message</span>
                             <textarea rows="3" name="message" className="block w-full rounded-md mt-2 p-2"></textarea>
                         </label>
-                        <button type="submit" className="btn btn-success px-8 py-3 text-lg rounded hover:ring hover:ring-violet-400">Submit</button>
+                        <button type="submit" className="btn bg-[#40ABB0] hover:bg-teal-700 px-8 py-3 text-white text-lg rounded ">Submit</button>
                     </form>
                 </div>
             </section>

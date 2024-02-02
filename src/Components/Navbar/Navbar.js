@@ -22,16 +22,16 @@ const Navbar = () => {
                         {menuItem}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl">Portfolio</Link>
+                <Link to="/" className="btn btn-ghost normal-case text-xl text-teal-700">Shapna Akter</Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex text-teal-700 font-bold">
                 <ul className="menu menu-horizontal px-1">
                     {menuItem}
                 </ul>
             </div>
             <div className="navbar-end">
                 <a href="https://drive.google.com/file/d/10-P23nlLQH7W7W8oTfL9P3v-ZCuxZKRI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                    <button className='btn btn-sm btn-outline font-bold'>Resume</button>
+                    <button className='btn lg:btn-md bg-[#40ABB0] text-white hover:bg-teal-700'>Resume</button>
                 </a>
             </div>
         </div>
