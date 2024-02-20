@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://drive.google.com/file/d/10-P23nlLQH7W7W8oTfL9P3v-ZCuxZKRI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1heoIgCnaxsjPsQJSEAmbVLVJebmSaLHn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <button className='btn lg:btn-md bg-[#40ABB0] text-white hover:bg-teal-700'>Resume</button>
                 </a>
             </div>

@@ -10,7 +10,7 @@ const Education = () => {
                     <div>
                         <h3 className="text-2xl font-semibold ">Frontend Developer </h3>
                         <h4 className='font-medium'>Tangle, Remote, USA, Full-Time</h4>
-                        <p>February 2023 - Present</p>
+                        <p>February 2023 - February 2024</p>
                         <h5 className="text-lg font-semibold">Responsibilities:</h5>
                         <ul>
                             <li>Transform design concepts into visually appealing, user-friendly websites using Reactjs.
@@ -25,7 +25,7 @@ const Education = () => {
                     <div>
                         <h3 className="text-2xl font-semibold ">Frontend Developer </h3>
                         <h4 className='font-medium'>Associate Application Developer, Internship</h4>
-                        <p>December 2022 - December 2023</p>
+                        <p>December 2022 - February 2023</p>
                         <h5 className="text-lg font-semibold">Responsibilities:</h5>
                         <ul>
                             <li>Create fully responsive templates based on Figma files.

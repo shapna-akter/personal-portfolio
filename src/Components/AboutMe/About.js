@@ -16,7 +16,7 @@ const About = () => {
                     <p><span className='text-gray-600'>Language:</span> Bengali</p>
                     <p><span className='text-gray-600'>Experience:</span> 1year</p>
                     <p><span className='text-gray-600'>Location:</span> Dhaka, Bangladesh</p>
-                    <a href="https://drive.google.com/file/d/10-P23nlLQH7W7W8oTfL9P3v-ZCuxZKRI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1heoIgCnaxsjPsQJSEAmbVLVJebmSaLHn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <button className='btn bg-[#40ABB0] text-white hover:bg-teal-700 mt-6'>Resume</button>
                     </a>
                 </div>
